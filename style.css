@@ -1,0 +1,165 @@
+/* Media queries */
+
+@media (min-width: 1px) and (max-width: 400px) {
+  * {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+  }
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    margin: 0;
+  }
+  
+  
+  img,
+  embed,
+  object,
+  video {
+    max-width: 100%;
+  }
+
+  a:hover {
+    color: firebrick;
+  }
+  
+/*  a:visited {*/
+/*    color: blueviolet;*/
+/*  }*/
+  
+  a:link {
+    text-decoration: underline;
+  }
+  
+  
+  /* Navigation */
+  
+  .navigation {
+    width: 100%;
+    font-size: 1.2em;
+    background-color: #C8C8C8;
+    margin-top: -15px; 
+  }
+  
+  .nav-menu li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 0px;
+ }
+  
+  .about-me  {
+    float: left;  
+    margin-left: 0;
+    margin-right: auto;
+  }
+ 
+  .about-me li {
+    padding: 1.5em;
+  }
+
+  
+  .menu {
+    margin-left: 0;
+    background-color:
+
+  }
+  
+  .menu li {
+    margin-left: 0; 
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 30%;
+  }
+  
+  
+  .menu a {
+    padding: 1.4em;
+    margin-top: -20px;
+
+  }
+  
+  
+  .content-image img {
+    width: 100%;
+    margin: 10px 0;
+    padding: 0px 0;
+  }
+  
+  
+/*  body {*/
+    background-color: yellow;
+  }
+  
+  
+  .section-one,
+  .section-two,
+  .section-three,
+  .section-four {
+    width: 100%;
+  }
+  .section-one {
+    margin: 10px auto;
+  }
+  
+  .section-two {
+/*    padding: 0.5em;*/
+  }
+  
+  .color-items li  {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    padding: 1.5em;
+    border-radius: 7px;
+    font-size: 1.1em;
+
+    
+  }
+  .pastel-blue {
+  border: 10px solid #b0e0e6;
+  background-color: #b0e0e6;
+}
+
+.pastel-beige {
+  border: 10px solid #ffdab9;
+  background-color: #ffdab9;
+}
+
+.pastel-pink {
+  border: 10px solid #ffc0cb;
+  background-color: #ffc0cb;
+}
+  .contacts {
+    text-align: center;
+    margin-top: -5px;
+    margin-bottom: 30px;
+    color: #686868;
+    font-size: 1.2em;
+
+  }
+  
+  
+  .featured-work li {
+    width: 100%;
+    height: 100%;
+    margin: 10px 0 20px -60px;
+    padding: 0 1px 20px 1px;
+  }
+}
