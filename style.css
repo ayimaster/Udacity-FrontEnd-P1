@@ -1,3 +1,5 @@
+/* Social Media Icons: www.designbolts.com */
+
 /* Media queries */
 
 @media (min-width: 1px) and (max-width: 400px) {
@@ -196,6 +198,7 @@
       background-color: #383838 ;  
       color: #fff;
       font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0;
   }
   
   
@@ -222,43 +225,76 @@
   
   .section-three {
     background-color: #F8F8F8;
-    margin-top: 40px;
-  }
-  
-  .color-items li {
-    list-style-type: none;
-    display: inline-block;
+    width: 100%;
+/*    height: 200px;*/
+    margin-top: -15px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
     padding: 1.2em;
+    font: 1.1em 'Open Sans' sans-serif;
+  
+  }
+  
+
+  .hard-skills,
+  .soft-skills {
+    background-color: #E0E0E0;
     border-radius: 7px;
-    font: bold 1.1em 'Open Sans' sans-serif;
-  }
-  
-  .pastel-blue {
-    border: 10px solid #b0e0e6;
-    background-color: #b0e0e6;
-  }
-  
-  .pastel-beige {
-    border: 10px solid #ffdab9;
-    background-color: #ffdab9;
-  }
-  
-  .pastel-pink {
-    border: 10px solid #ffc0cb;
-    background-color: #ffc0cb;
-  }
-  .contacts {
-    text-align: center;
-    margin-top: -5px;
-    margin-bottom: 30px;
-    color: #686868;
-    font-size: 1.2em;
+    padding: 10px 0;
+    margin: 10px auto;
 
   }
   
+  .hard-skills li {
+    list-style-type: none;
+    padding: 3px 3px;
+  }
   
+       
+  .soft-skills li {
+    list-style-type: none;
+    padding: 3px 3px;
+    text-align: center;
+
+  }
+  
+  .contact {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 1.5em;
+    margin-bottom: 30px;
+    color: #686868;
+    font-size: 1.5em;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #E0E0E0;
+    margin-top: 40px;
+    margin-bottom: 0;
+    height: 150px;
+  }
+  .social {
+    margin-top: 20px;
+    margin-bottom: -20px;
+    padding: 1.1em;
+  }
  
+  .social img {
+    padding: 0.9em
+  }
+  
+  .copyright {
+    font: bold 1.1em 'Open Sans' sans-serif;
+    color: #686868;
+  }
+  
+  
 }
+
+
+
+
+
+
