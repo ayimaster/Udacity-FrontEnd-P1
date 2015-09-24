@@ -16,10 +16,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
   <link href="normalize.css" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
   <link href="hamburger.css" rel="stylesheet">
-  <link rel="stylesheet" media="screen and (min-width: 550px)" href="medium.css">
-  <link rel="stylesheet" media="screen and (min-width: 550px)" href="large.css">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mediaqueries.css">
+  <!--  <link rel="stylesheet" media="screen and (min-width: 550px)" href="large.css">-->
   <script type="text/javascript">
     jQuery(function ($) {
       $('.menu-btn').click(function () {
@@ -32,7 +33,6 @@
 
 <body>
   <header>
-
     <div class="mobile-nav">
       <div class="menu-btn" id="menu-btn">
         <div></div>
@@ -40,12 +40,9 @@
         <span></span>
         <span></span>
       </div>
-
   </header>
   <div class="navigation">
-
     <div class="responsive-menu">
-
       <ul class="menu">
         <li><a href="#">Home</a>
         </li>
@@ -54,11 +51,8 @@
         <li><a href="#">Contacts</a>
         </li>
       </ul>
-
     </div>
-
   </div>
-
   <div id="contentLayer"></div>
   <div id="content">
     <div class="intro">
@@ -68,12 +62,10 @@
         <li class="profession">Front-End Developer</li>
       </ul>
     </div>
-
     <section class="section-one">
       <h1>Front-End Development.</h1>
       <h3>Responsive. Fast. Clean.</h3>
     </section>
-
     <div class="banner">
       <p> <strong class="beginning">I am</strong> a self-taught front-end developer, living and working in Switzerland. I have several years of experience in Project Management and research. In the last couple of years I became passionate and enthusiastic about web development. I would like to learn as much as possible and start using these skills to create responsive websites with simple, but clean code. </p>
     </div>
@@ -81,59 +73,61 @@
     <section class="section-two">
       <div class="content-image">
         <h2 class="featured-work-title">Featured Work</h2>
-
         <ul class="featured-work">
-          <li><a href="#"><img src="images/project1.png">T. Okeev  Film Director</a></li>
-          <li><a href="#"><img src="images/project4.png">T. Okeev Foundation</a></li>
-          <li><a href="#"><img src="images/project2.png">Landing Pages</a></li>
-          <li><a href="#"><img src="images/project3.png">Commercial Products</a></li>
+          <li>
+            <a href="#"><img src="images/project1.png">T. Okeev Film Director</a>
+          </li>
+          <li>
+            <a href="#"><img src="images/project2.png">T. Okeev Foundation</a>
+          </li>
+          <li>
+            <a href="#"><img src="images/project3.png">Landing Pages</a>
+          </li>
+          <li>
+            <a href="#"><img src="images/project4.png">Commercial Products</a>
+          </li>
         </ul>
       </div>
     </section>
-
-  <section class="section-three">
+    <section class="section-three">
       <div class="hard-skills"><strong>Hard Skills</strong>
-           <ul > 
-            <li class="">HTML - intermediate</li>
-            <li class="">CSS - intermediate</li>
-            <li class="">JavaScript - beginner</li>
-            <li class="">jQuery - beginner</li>
-            <li class="">Scrum technologies - beginner</li>
-            <li class="">Project Management - advanced</li>
-          </ul>
-        </div>  
-        
-  <div class="soft-skills"> <strong>Soft Skills</strong>
-     <ul> 
-      <li>Team work</li>
-      <li>Fast learner</li>
-      <li>Creative</li>
-      <li>Committed</li>
-    </ul>
-    </div>
-</section>
-  
-    
-  <section class="section-four">
-<p class="contact"><i class="fa fa-envelope"></i>
-contact me: email@contact.com</p>
-
-  </section>
+        <ul>
+          <li class="">HTML - intermediate</li>
+          <li class="">CSS - intermediate</li>
+          <li class="">JavaScript - beginner</li>
+          <li class="">jQuery - beginner</li>
+          <li class="">Scrum technologies - beginner</li>
+          <li class="">Project Management - advanced</li>
+        </ul>
+      </div>
+      <div class="soft-skills"> <strong>Soft Skills</strong>
+        <ul>
+          <li>Team work</li>
+          <li>Troubleshooting</li>
+          <li>Fast learner</li>
+          <li>Creative</li>
+          <li>Committed</li>
+          <li>Agile</li>
+          
+          
+          
+        </ul>
+      </div>
+    </section>
+    <section class="section-four">
+      <p class="contact"><i class="fa fa-envelope"></i> contact me: email@contact.com</p>
+    </section>
   </div>
-
-
-
-
-
-
-
   <footer>
     <div class="social">
-      <a href="#"><img class="twitter" src="images/twitter.png"></a>
-      <a href="#"><img class="linkedin" src="images/linkedin.png"></a>
-      <a href="#"><img class="facebook" src="images/facebook.png"></a>
+      <a href="#"><img class="twitter" src="images/twitter.png">
+      </a>
+      <a href="#"><img class="linkedin" src="images/linkedin.png">
+      </a>
+      <a href="#"><img class="facebook" src="images/facebook.png">
+      </a>
     </div>
-      <p class="copyright">Copyright Ayima Okeeva</p>
+    <p class="copyright">Copyright Ayima Okeeva</p>
   </footer>
 </body>
 

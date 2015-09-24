@@ -2,13 +2,14 @@
 
 /* Media queries */
 
-@media (min-width: 1px) and (max-width: 400px) {
-  * {
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-  }
+/*@media (min-width: 1px) and (max-width: 400px) {*/
+/*  * {*/
+/*    box-sizing: border-box;*/
+/*    -webkit-box-sizing: border-box;*/
+/*    -moz-box-sizing: border-box;*/
+/*    -ms-box-sizing: border-box;*/
+/*  }*/
+/*
   body,
   html {
     margin: 0;
@@ -48,10 +49,12 @@
   a:link {
     text-decoration: none;
   }
+*/
   
   
   /************** Navigation */
   
+/*
   .navigation {
     width: 100%;
     font-size: 1.2em;
@@ -87,9 +90,11 @@
     color: #fff;
 
   }
+*/
   
+/*
   #content {
-/*    background: #F8F8F8  none repeat scroll 0% 0%;*/
+    background: #F8F8F8  none repeat scroll 0% 0%;
     margin-top: 15px;
     border-top: 3px solid #fff;
   }
@@ -134,19 +139,23 @@
     padding: 1em;
 
    }
+*/
   
   
   /************** Content */
   
-  .section-one,
+/*  .section-one,*/
+/*
   .section-two,
   .section-three,
   .section-four {
     width: 100%;
   }
+*/
   
   
   /************** Section 1 */
+/*
   
  .section-one {
     margin: 0 auto;
@@ -190,10 +199,12 @@
   .beginning  {
     font: italic bold 1.4em'Lobster Two', cursive; 
   }
+*/
   
   
 /************** Section 2 */
 
+/*
   .section-two {
       background-color: #383838 ;  
       color: #fff;
@@ -220,13 +231,14 @@
     text-align: center;
   }
   
+*/
 
   /************** Section 3 */
   
+/*
   .section-three {
     background-color: #F8F8F8;
     width: 100%;
-/*    height: 200px;*/
     margin-top: -15px;
     display: block;
     margin-left: auto;
@@ -241,14 +253,17 @@
   .soft-skills {
     background-color: #E0E0E0;
     border-radius: 7px;
-    padding: 10px 0;
-    margin: 10px auto;
-
+    padding: 10px 2px;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    font-size: 1.1em;
   }
   
   .hard-skills li {
     list-style-type: none;
     padding: 3px 3px;
+    margin-right: 20px;
   }
   
        
@@ -256,9 +271,12 @@
     list-style-type: none;
     padding: 3px 3px;
     text-align: center;
-
-  }
+    margin-right: 40px;
   
+  }
+*/
+  
+/*
   .contact {
     text-align: center;
     margin-top: 0;
@@ -289,12 +307,8 @@
     font: bold 1.1em 'Open Sans' sans-serif;
     color: #686868;
   }
+*/
   
   
-}
-
-
-
-
-
+/*}*/
 
