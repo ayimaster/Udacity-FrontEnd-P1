@@ -1,6 +1,5 @@
 /* Social Media Icons: www.designbolts.com */
-
-
+/*Logo from: "http://www.freepik.com/free-vector/vectors_760470.htm">Designed by Freepik*/
 /* Media queries */
 
 @media (min-width: 1px) and (max-width: 400px) {
@@ -20,7 +19,7 @@
   body {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
-    overflow-x:hidden;
+    overflow-x: hidden;
   }
   h1,
   h2,
@@ -29,50 +28,43 @@
   h5 {
     margin: 0;
   }
-  
-  
   img,
   embed,
   object,
   video {
     max-width: 100%;
   }
-
   a:hover {
     color: firebrick;
   }
-  
   a:visited {
     color: #e0ffff;
   }
-  
   a:link {
     text-decoration: none;
   }
-  
-  
   /************** Navigation */
   
   .navigation {
     width: 100%;
     font-size: 1.2em;
-    background-color:  #2098D1 ;
-    color: #fff; 
-    
+    background-color: #2098D1;
+    color: #fff;
   }
-  
-    .responsive-menu li {
+  .responsive-menu li {
     list-style-type: none;
-    
- }
-  
+  }
+  #logo {
+    width: 15%;
+    float: right;
+    margin-top: -55px;
+  }
   .menu {
     display: block;
     margin-top: 20px;
     margin-left: -20px;
     margin-bottom: 10px;
   }
-  
   .menu li {
     padding-top: 1.2em;
     padding-bottom: 1.2em;
@@ -80,52 +72,41 @@
     width: 90%;
     margin-left: -15px;
   }
-  
-  
   .menu a {
     padding: 1.4em;
     margin-top: 20px;
     color: #fff;
-
   }
-  
   #content {
-/*    background: #F8F8F8  none repeat scroll 0% 0%;*/
     margin-top: 15px;
     border-top: 3px solid #fff;
   }
-  
   .intro {
     border-bottom: 3px solid #fff;
     display: inline-block;
     width: 100%;
     background-color: #2098D1;
   }
-  
   .about-me {
     margin-top: 0px;
     padding-top: 12px;
     padding-bottom: 15px;
     line-height: 1.5em;
   }
-  
-  
-  .about-me  li {
+  .about-me li {
     list-style-type: none;
-    display: inline-block;  
+    display: inline-block;
   }
-
   .my-name {
     color: #fff;
     border-radius: 20px;
     margin-bottom: 5px;
     width: 40%;
     margin-left: -20px;
-    padding: 3px; 
+    padding: 3px;
     text-align: center;
     font-size: 1.3em;
   }
-  
   .profession {
     padding-right: 4px;
     padding-left: 4px;
@@ -133,10 +114,7 @@
     font-size: 1.2em;
     color: #fff;
     padding: 1em;
-
-   }
-  
-  
+  }
   /************** Content */
   
   .section-one,
@@ -145,39 +123,30 @@
   .section-four {
     width: 100%;
   }
-  
-  
   /************** Section 1 */
   
- .section-one {
+  .section-one {
     margin: 0 auto;
     width: 100%;
     height: 200px;
-    text-align: center; 
+    text-align: center;
     background-color: #2098D1;
-
   }
-  
- .section-one h1,
- .section-one h3 {
-   color: #fff;
-   line-height: 200px;
-   padding-top: 20px;
- }
-  
+  .section-one h1,
+  .section-one h3 {
+    color: #fff;
+    line-height: 200px;
+    padding-top: 20px;
+  }
   .section-one h1 {
-  font: 2.5em 'Lobster Two', cursive;
-  font-style: italic;
-  padding-top: 50px;
-  vertical-align: middle;
-  
-}
-
-.section-one h3 {
-  font: 1.5em 'Open Sans' sans-serif ;
-  
-}
-  
+    font: 2.5em 'Lobster Two', cursive;
+    font-style: italic;
+    padding-top: 50px;
+    vertical-align: middle;
+  }
+  .section-one h3 {
+    font: 1.5em 'Open Sans' sans-serif;
+  }
   .banner {
     margin: 10px auto 0;
     width: 100%;
@@ -187,31 +156,24 @@
     line-height: 1.3em;
     background-color: #F8F8F8;
   }
-  
-  .beginning  {
-    font: italic bold 1.4em'Lobster Two', cursive; 
+  .beginning {
+    font: italic bold 1.4em'Lobster Two', cursive;
   }
+  /************** Section 2 */
   
-  
-/************** Section 2 */
-
   .section-two {
-      background-color: #383838 ;  
-      color: #fff;
-      font-family: 'Open Sans', sans-serif;
+    background-color: #383838;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 0;
   }
-  
-  
-  h2.featured-work-title  {
+  h2.featured-work-title {
     padding-top: 25px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
   }
-  
-  
-   .featured-work li {
+  .featured-work li {
     width: 100%;
     height: 100%;
     margin-left: -20px;
@@ -220,8 +182,6 @@
     list-style-type: none;
     text-align: center;
   }
-  
-
   /************** Section 3 */
   
   .section-three {
@@ -233,10 +193,7 @@
     margin-right: auto;
     padding: 1.2em;
     font: 1.1em 'Open Sans' sans-serif;
-  
   }
-  
-
   .hard-skills,
   .soft-skills {
     background-color: #E0E0E0;
@@ -247,22 +204,17 @@
     width: 100%;
     font-size: 1.1em;
   }
-  
   .hard-skills li {
     list-style-type: none;
     padding: 3px 3px;
     margin-right: 20px;
   }
-  
-       
   .soft-skills li {
     list-style-type: none;
     padding: 3px 3px;
     text-align: center;
     margin-right: 40px;
-  
   }
-  
   .contact {
     text-align: center;
     margin-top: 0;
@@ -271,7 +223,6 @@
     color: #686868;
     font-size: 1.5em;
   }
-  
   footer {
     text-align: center;
     background-color: #E0E0E0;
@@ -284,19 +235,14 @@
     margin-bottom: -20px;
     padding: 1.1em;
   }
- 
   .social img {
     padding: 0.9em
   }
-  
   .copyright {
     font: bold 1.1em 'Open Sans' sans-serif;
     color: #686868;
   }
-  
-  
 }
-
 /************** Medium Screens */
 
 @media (min-width: 401px) and (max-width: 767px) {
@@ -316,7 +262,7 @@
   body {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
-    overflow-x:hidden;
+    overflow-x: hidden;
   }
   h1,
   h2,
@@ -325,85 +271,74 @@
   h5 {
     margin: 0;
   }
-  
-  
   img,
   embed,
   object,
   video {
     max-width: 100%;
   }
-
   a:hover {
     color: firebrick;
   }
-  
   a:visited {
     color: #e0ffff;
   }
-  
   a:link {
     text-decoration: none;
   }
-  
-    
   /************** Navigation */
   
-   
   .navigation {
     width: 100%;
     font-size: 1.2em;
-    background-color:  #2098D1 ;
-    color: #fff; 
-    margin-bottom: -15px;    
+    background-color: #2098D1;
+    color: #fff;
+    margin-bottom: -15px;
   }
-  
-
-    .responsive-menu li {
-      list-style-type: none;
-      display: inline-block;
-      padding: 5px 10px;
-      font-size: 1.1em;
-      text-align: center;
-      margin-left: auto;
-      margin-right: auto;
-      width: 30%;
- }
-  
-  
+  .responsive-menu li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 1.1em;
+    text-align: center;
+    margin-left: 22px;
+    margin-right: auto;
+    width: 25%;
+  }
+  #logo {
+    width: 10%;
+    float: right;
+    margin-top: -63px;
+    margin-bottom: 0px;
+  }
   #content {
     margin-top: 15px;
     border-top: 3px solid #fff;
   }
-  
   .intro {
     border-bottom: 3px solid #fff;
     display: inline-block;
     width: 100%;
     background-color: #2098D1;
   }
-  
   .about-me {
-    display: inline-block;  
+    display: inline-block;
     width: 70%;
     margin-top: 0px;
     padding-left: 0;
     text-align: left;
     line-height: 0.5em;
   }
-  
-    .about-me  li {
+  .about-me li {
     list-style-type: none;
   }
-
   .my-name {
     color: #fff;
     margin-bottom: 5px;
     width: 60%;
-    padding: 1em; 
+    padding: 1em;
     font-size: 1.4em;
   }
-  
   .profession {
     padding-right: 0px;
     padding-left: 0px;
@@ -411,10 +346,7 @@
     font-size: 1.2em;
     color: #fff;
     padding: 1em;
-
-   }
-  
-  
+  }
   /************** Content */
   
   .section-one,
@@ -423,40 +355,31 @@
   .section-four {
     width: 100%;
   }
-  
-  
   /************** Section 1 */
   
- .section-one {
+  .section-one {
     margin: 0 auto;
     width: 100%;
     height: 350px;
-    text-align: center; 
+    text-align: center;
     background-color: #2098D1;
-     padding-top: 40px;
-
+    padding-top: 40px;
   }
-  
- .section-one h1,
- .section-one h3 {
-   color: #fff;
-   line-height: 200px;
-   padding-top: 20px;
- }
-  
+  .section-one h1,
+  .section-one h3 {
+    color: #fff;
+    line-height: 200px;
+    padding-top: 20px;
+  }
   .section-one h1 {
-  font: 2.5em 'Lobster Two', cursive;
-  font-style: italic;
-  padding-top: 50px;
-  vertical-align: middle;
-  
-}
-
-.section-one h3 {
-  font: 1.5em 'Open Sans' sans-serif ;
-  
-}
-  
+    font: 2.5em 'Lobster Two', cursive;
+    font-style: italic;
+    padding-top: 50px;
+    vertical-align: middle;
+  }
+  .section-one h3 {
+    font: 1.5em 'Open Sans' sans-serif;
+  }
   .banner {
     margin: 10px auto 0;
     width: 100%;
@@ -466,31 +389,24 @@
     line-height: 1.3em;
     background-color: #F8F8F8;
   }
-  
-  .beginning  {
-    font: italic bold 1.4em'Lobster Two', cursive; 
+  .beginning {
+    font: italic bold 1.4em'Lobster Two', cursive;
   }
+  /************** Section 2 */
   
-  
-/************** Section 2 */
-
   .section-two {
-      background-color: #383838 ;  
-      color: #fff;
-      font-family: 'Open Sans', sans-serif;
+    background-color: #383838;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 0;
   }
-  
-  
-  h2.featured-work-title  {
+  h2.featured-work-title {
     padding-top: 25px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
   }
-  
-  
-   .featured-work li {
+  .featured-work li {
     max-width: 100%;
     height: 100%;
     margin-left: -15px;
@@ -498,15 +414,10 @@
     font-size: 1.3em;
     list-style-type: none;
     text-align: center;
-     
   }
-  
-  
   .featured-work img {
     width: calc((100% - 10px))
   }
-  
-
   /************** Section 3 */
   
   .section-three {
@@ -518,10 +429,7 @@
     margin-right: auto;
     padding: 1.2em;
     font: 1.1em 'Open Sans' sans-serif;
-  
   }
-  
-
   .hard-skills,
   .soft-skills {
     background-color: #E0E0E0;
@@ -532,22 +440,17 @@
     width: 100%;
     font-size: 1.1em;
   }
-  
   .hard-skills li {
     list-style-type: none;
     padding: 3px 3px;
     margin-right: 20px;
   }
-  
-       
   .soft-skills li {
     list-style-type: none;
     padding: 3px 3px;
     text-align: center;
     margin-right: 40px;
-  
   }
-  
   .contact {
     text-align: center;
     margin-top: 0;
@@ -556,7 +459,6 @@
     color: #686868;
     font-size: 1.5em;
   }
-  
   footer {
     text-align: center;
     background-color: #E0E0E0;
@@ -569,21 +471,15 @@
     margin-bottom: -20px;
     padding: 1.1em;
   }
- 
   .social img {
     padding: 0.9em
   }
-  
   .copyright {
     font: bold 1.1em 'Open Sans' sans-serif;
     color: #686868;
   }
-  
 }
-
-
 /************** Large Screens */
-
 
 @media (min-width: 768px) and (max-width: 1600px) {
   * {
@@ -602,7 +498,7 @@
   body {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
-    overflow-x:hidden;
+    overflow-x: hidden;
   }
   h1,
   h2,
@@ -611,71 +507,58 @@
   h5 {
     margin: 0;
   }
-  
-  
   img,
   embed,
   object,
   video {
     max-width: 100%;
   }
-
   a:hover {
     color: firebrick;
   }
-  
   a:visited {
     color: #e0ffff;
   }
-  
   a:link {
     text-decoration: none;
   }
-
-
   /************** Navigation */
-  
   
   .mobile-nav {
     display: none;
   }
-  
-    .navigation {
+  .navigation {
     width: 90%;
     font-size: 1.2em;
-    background-color:  #2098D1 ;
-    color: #fff; 
-    margin-bottom: -15px;    
+    background-color: #2098D1;
+    color: #fff;
+    margin-bottom: -15px;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
   }
-  
   .responsive-menu {
     display: block;
   }
-  
-    .responsive-menu li {
-      display: inline-block;
-      list-style-type: none;
-      padding: 5px 10px;
-      font-size: 1.1em;
-   }
-  
-  .menu {
-    display: inline-block;
-    text-align: center;
+  #logo {
+    width: 15%;
     margin-left: auto;
     margin-right: auto;
-    max-width: 100%;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
   }
-  
-  
+  .responsive-menu li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 10px;
+    font-size: 1.1em;
+    margin-top: 0px;
+  }
   #content {
     margin-top: 15px;
     border-top: 3px solid #fff;
   }
-  
   .intro {
     border-bottom: 3px solid #fff;
     width: 90%;
@@ -684,28 +567,23 @@
     max-width: 100%;
     background-color: #2098D1;
     text-align: center;
-
   }
-  
   .about-me {
-    display: inline-block;  
+    display: inline-block;
     list-style-type: none;
   }
-  
-
   .my-name {
     color: #fff;
     margin-bottom: 5px;
-    padding: 0.8em; 
-    font-size: 1.5em;
+    padding: 1.1em;
+    font-size: 1.7em;
+    margin-right: 20px;
   }
-  
   .profession {
     font-size: 1.3em;
     color: #fff;
-   }
-  
-  
+    margin-right: 20px;
+  }
   /************** Content */
   
   .section-one,
@@ -716,74 +594,58 @@
     margin-left: auto;
     margin-right: auto;
   }
-  
-  
   /************** Section 1 */
   
- .section-one {
+  .section-one {
     height: 450px;
-    text-align: center; 
+    text-align: center;
     background-color: #2098D1;
     padding-top: 40px;
-
   }
-  
- .section-one h1,
- .section-one h3 {
-   color: #fff;
-   text-align: center;
-   line-height: 300px;
-   padding-top: 20px;
-   padding-left: 30px;
- }
-  
+  .section-one h1,
+  .section-one h3 {
+    color: #fff;
+    text-align: center;
+    line-height: 300px;
+    padding-top: 20px;
+    padding-left: 30px;
+  }
   .section-one h1 {
-  font: 2.5em 'Lobster Two', cursive;
-  font-style: italic;
-  padding-top: 100px;
-  
-}
-
-.section-one h3 {
-  font: 1.5em 'Open Sans' sans-serif ;
-  
-}
-  
+    font: 2.5em 'Lobster Two', cursive;
+    font-style: italic;
+    padding-top: 100px;
+  }
+  .section-one h3 {
+    font: 1.5em 'Open Sans' sans-serif;
+  }
   .banner {
     margin: 0 auto;
     width: 90%;
-    height: 250px;
+    height: 220px;
     font: 1.4em 'Open-Sans' sans-serif;
-    padding: 1.8em;
-    line-height: 1.5em;
+    padding: 1.9em;
+    line-height: 1.6em;
     background-color: #F8F8F8;
     text-align: center;
   }
-  
-  .beginning  {
-    font: italic bold 1.4em'Lobster Two', cursive; 
+  .beginning {
+    font: italic bold 1.4em'Lobster Two', cursive;
   }
+  /************** Section 2 */
   
-  
-/************** Section 2 */
-
   .section-two {
-      background-color: #383838 ;  
-      color: #fff;
-      font-family: 'Open Sans', sans-serif;
+    background-color: #383838;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 0;
   }
-  
-  
-  h2.featured-work-title  {
+  h2.featured-work-title {
     padding-top: 25px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
   }
-  
-  
-   .featured-work li {
+  .featured-work li {
     max-width: 100%;
     height: 100%;
     margin-left: -15px;
@@ -791,15 +653,10 @@
     font-size: 1.5em;
     list-style-type: none;
     text-align: center;
-     
   }
-  
-  
   .featured-work img {
     width: calc((100% - 10px))
   }
-  
-
   /************** Section 3 */
   
   .section-three {
@@ -811,10 +668,7 @@
     margin-right: auto;
     padding: 1.3em;
     font: 1.1em 'Open Sans' sans-serif;
-  
   }
-  
-
   .hard-skills,
   .soft-skills {
     background-color: #E0E0E0;
@@ -827,22 +681,17 @@
     display: inline-block;
     width: calc((100% - 20px)/2);
   }
-  
   .hard-skills li {
     list-style-type: none;
     padding: 3px 3px;
     margin-right: 20px;
   }
-  
-       
   .soft-skills li {
     list-style-type: none;
     padding: 3px 3px;
     text-align: center;
     margin-right: 40px;
-  
   }
-  
   .contact {
     text-align: center;
     margin-top: 0;
@@ -851,7 +700,6 @@
     color: #686868;
     font-size: 1.5em;
   }
-  
   footer {
     text-align: center;
     background-color: #E0E0E0;
@@ -864,13 +712,10 @@
     margin-bottom: -20px;
     padding: 1.1em;
   }
- 
   .social img {
     padding: 0.9em
   }
-  
   .copyright {
     font: bold 1.1em 'Open Sans' sans-serif;
     color: #686868;
   }
-
