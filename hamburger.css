@@ -1,40 +1,36 @@
 /*http://www.internetkultur.at/simple-hamburger-drop-down-menu-with-css-and-jquery/*/
 
 .mobile-nav {
-  margin-top: 25px;
-  margin-bottom: 20px;  
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
-
 
 .menu-btn div {
-	position: absolute;
-	left: 100%;
-	top: 45%;
-	padding-right: 8px;
-	margin-top: -0.50em;
-	line-height: 1.2;
-	font-size: 18px;
-	font-weight: 200;
-	vertical-align: middle;
-	z-index: 99;
-  
+    position: absolute;
+    left: 100%;
+    top: 45%;
+    padding-right: 8px;
+    margin-top: -0.50em;
+    line-height: 1.2;
+    font: 200 18px;
+    vertical-align: middle;
+    z-index: 99;
 }
- 
+
 .menu-btn span {
-	display: block;
-	width: 19px;
-	height: 5px;
-	margin: 2px 10px;
-	background: rgb(0,0,0);
-	z-index: 99;
-  padding-top: 4px;
-  
-  }
- 
-.responsive-menu {
-	display: none;
+    display: block;
+    width: 19px;
+    height: 5px;
+    margin: 2px 10px;
+    background: rgb(0, 0, 0);
+    z-index: 99;
+    padding-top: 4px;
 }
- 
+
+.responsive-menu {
+    display: none;
+}
+
 .expand {
-	display: block !important; 
+    display: block !important;
 }
