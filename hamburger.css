@@ -1,8 +1,7 @@
 /*http://www.internetkultur.at/simple-hamburger-drop-down-menu-with-css-and-jquery/*/
 
 .mobile-nav {
-    margin-top: 25px;
-    margin-bottom: 20px;
+    margin: 25px 0 20px;
 }
 
 .menu-btn div {
